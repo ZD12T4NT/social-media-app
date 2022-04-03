@@ -1,6 +1,10 @@
 # MediaApp
 
-I had to downgrade the react application because the materialUI plugin wasn't up to date with react version 18.0.0
+Initially I used Material UI for the navbar icons but Material UI was not compatible with react v18.0.0 so I had to downgrade.
+
+Then for the story slider I used a library called react-scroll-horizontal. Once I installed this all sorts of errors came up, it turns out that this library will only work with react v16.0.0 so I had to downgrade again. With that happening the Material UI icons would not work.
+
+Anyway I decided to use svg images for the icons and stuck with the horizontal slider.
 
 # Getting Started with Create React App
 

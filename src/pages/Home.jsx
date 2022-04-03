@@ -1,15 +1,20 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import "../App.scss";
+import Navigation from "../components/Navigation";
+import Cards from "../components/Cards";
+import Sidebar from "../components/Sidebar";
 
-
-
-
-export const Home = () => {
+function App() {
   return (
-    <div>
-        <Navbar />
+    <div className="App">
+      <Navigation />
+      <main>
+        <div className="container">
+          <Cards />
+          <Sidebar />
+        </div>
+      </main>
     </div>
-  )
+  );
 }
 
-export default Home;
+export default App;
