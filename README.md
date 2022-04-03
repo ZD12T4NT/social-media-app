@@ -1,3 +1,7 @@
+# MediaApp
+
+I had to downgrade the react application because the materialUI plugin wasn't up to date with react version 18.0.0
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
