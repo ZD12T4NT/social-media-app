@@ -28,23 +28,31 @@
     }
 
     .search {
-      border: 1px solid $border-color-grey;
       border-radius: 3px;
-      background-color: $background-grey;
-      min-width: 225px;
+      background-color:#dbdbdb69;
+      min-width: 275px;
       display: flex;
       align-items: center;
       justify-content: center;
+      border-radius: 5px;
+
+
+      input{
+        border: none;
+        background-color: transparent;
+        margin-right: 3em;
+        padding: 10px 0;
+      }
 
       .searchIcon {
-        width: 10px;
+        width: 14px;
         opacity: 0.4;
         margin-right: 0.3em;
       }
 
       .searchText {
         color: $font-color-secondary;
-        font-size: 0.85em;
+        font-size: 1em;
         font-weight: 300;
       }
     }

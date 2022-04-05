@@ -2,6 +2,7 @@
 
 .menu {
     display: flex;
+    align-items: center;
     padding-right: 1.5em;
   
     .icon {
@@ -14,7 +15,5 @@
       }
     }
   
-    .profileIcon {
-      margin-top: -3px;
-    }
+   
   }
